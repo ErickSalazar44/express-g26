@@ -1,0 +1,15 @@
+<section class="margen">
+    <h1>Proyectos</h1>
+    <ul>
+        {{#each projectsData}}
+            <li>
+                <a href="/projects/{{this.id}}">
+                    {{this.name}}
+                </a>
+                <picture>
+                    <img src="{{image}}" alt="" crossorigin="anonymous">
+                </picture>
+            </li>
+        {{/each}}
+    </ul>
+</section>

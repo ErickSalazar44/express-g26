@@ -1,0 +1,49 @@
+.myApp {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+    color: #1f1f1f;
+}
+
+/*
+Para #f3e7e9:
+
+Combinación suave: #d1a5ac
+Combinación vibrante: #ff94a1
+Combinación complementaria: #e9f3e7
+Combinación neutra: #c8c8c8
+Para #e3eeff:
+
+Combinación suave: #afc8e7
+Combinación vibrante: #6da3e3
+Combinación complementaria: #ffe3ee
+Combinación neutra: #c8c8c8
+
+*/
+
+.margen {
+    padding: 0 1em;
+    max-width: 1200px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoTitulo {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.navegador .navegador__ul {
+    display: flex;
+    gap: 1em;
+}
+
+
+.home {
+    flex-grow: 2;
+}
